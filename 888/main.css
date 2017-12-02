@@ -1,0 +1,24 @@
+.gallery{
+  
+}
+html{
+  background-image: url("bg.gif");
+}
+h1{
+  color: white;
+  margin-left: 2em;
+}
+.gallery .gallery_element{
+  display: inline;
+  outline: 2px black;
+  margin: 1em;
+}
+.garold{
+  vertical-align: top;
+}
+.garold:hover{
+  cursor: pointer;
+  transform: scale(2);
+  transition: all 1s linear;
+  filter: invert();
+}
